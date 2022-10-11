@@ -11,17 +11,20 @@ namespace UrnaEletronica
         public int NumeroCandidatoLula { get; set; }
         public string? NomeCandidatoLula { get; set; }
         public int NumeroDeVotosCandidatoLula { get; set; }
-        public CandidatoLula(){
+        public CandidatoLula()
+        {
             NumeroCandidatoLula = 13;
             NomeCandidatoLula = "Lula";
             NumeroDeVotosCandidatoLula = 0;
         }  
 
-        public void SetNumeroDeVotosCandidatoLula(int value) {
-            NumeroDeVotosCandidatoLula = NumeroDeVotosCandidatoLula + 1;
+        public void SetNumeroDeVotosCandidatoLula(int value)
+        {
+            NumeroDeVotosCandidatoLula = NumeroDeVotosCandidatoLula + value;
         }
 
-        public int GetNumeroDeVotosCandidatoLula() {
+        public int GetNumeroDeVotosCandidatoLula()
+        {
             return NumeroDeVotosCandidatoLula;
         }
     }
@@ -33,17 +36,20 @@ namespace UrnaEletronica
 
         public int NumeroDeVotosCandidatoBolsonaro { get; set; }
 
-        public CandidatoBolsonaro() {
+        public CandidatoBolsonaro() 
+        {
             NumeroCandidatoBolsonaro = 22;
             NomeCandidatoBolsonaro = "Bolsonaro"; 
             NumeroDeVotosCandidatoBolsonaro = 0;
         }
 
-        public void SetNumeroDeVotosCandidatoBolsonaro(int value) {
+        public void SetNumeroDeVotosCandidatoBolsonaro(int value)
+        {
             NumeroDeVotosCandidatoBolsonaro = NumeroDeVotosCandidatoBolsonaro + value;
         }
 
-        public int GetNumeroDeVotosCandidatoBolsonaro() {
+        public int GetNumeroDeVotosCandidatoBolsonaro()
+        {
             return NumeroDeVotosCandidatoBolsonaro;
         }
     }

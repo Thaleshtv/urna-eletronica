@@ -9,24 +9,23 @@ namespace UrnaEletronica
     {
         static void Main(string[] args) 
         {
-            CandidatoLula candidatoUm = new CandidatoLula();
-            CandidatoBolsonaro candidatoDois = new CandidatoBolsonaro();
+            CandidatoLula candidatoLula = new CandidatoLula();
+            CandidatoBolsonaro candidatoBolsonaro = new CandidatoBolsonaro();
             VotoNulo votoNulo = new VotoNulo();
 
             Console.WriteLine("Bolsonaro - 22 \r\nLula - 13\r\nNulo - 0\r\n");
 
             for(int i = 0; i < 5; i++) {
                 Console.WriteLine("Digite o numero do seu candidato\r\n");
-
                 string? numeroCandidato = Console.ReadLine();
 
                 if(numeroCandidato == "13") {
-                    candidatoUm.SetNumeroDeVotosCandidatoLula(1);
+                    candidatoLula.SetNumeroDeVotosCandidatoLula(1);
                     Console.WriteLine("Você votou em Lula\r\n");
                 }
 
                 if(numeroCandidato == "22") {
-                    candidatoDois.SetNumeroDeVotosCandidatoBolsonaro(1);
+                    candidatoBolsonaro.SetNumeroDeVotosCandidatoBolsonaro(1);
                     Console.WriteLine("Você votou em Bolsonaro\r\n");
                 }
 
@@ -41,8 +40,8 @@ namespace UrnaEletronica
             }
             
             string presidenteEleito = "";
-            int numeroDeVotosBolsonaro = candidatoDois.GetNumeroDeVotosCandidatoBolsonaro();
-            int numeroDeVotosLula = candidatoUm.GetNumeroDeVotosCandidatoLula();
+            int numeroDeVotosBolsonaro = candidatoBolsonaro.GetNumeroDeVotosCandidatoBolsonaro();
+            int numeroDeVotosLula = candidatoLula.GetNumeroDeVotosCandidatoLula();
             int numeroDeVotosNulo = votoNulo.GetNumeroDeVotosNulo();
 
             if(numeroDeVotosBolsonaro > numeroDeVotosLula) {
@@ -57,8 +56,7 @@ namespace UrnaEletronica
                 presidenteEleito = "Empate!";
             }
             
-
-            Console.WriteLine($"Apuração total dos votos! \r\nBolsonaro - {candidatoDois.GetNumeroDeVotosCandidatoBolsonaro()} \r\nLula - {candidatoUm.GetNumeroDeVotosCandidatoLula()} \r\nNulo - {votoNulo.GetNumeroDeVotosNulo()} \r\n\nPresidente eleito - {presidenteEleito}");
+            Console.WriteLine($"Apuração total dos votos! \r\nBolsonaro - {candidatoBolsonaro.GetNumeroDeVotosCandidatoBolsonaro()} \r\nLula - {candidatoLula.GetNumeroDeVotosCandidatoLula()} \r\nNulo - {votoNulo.GetNumeroDeVotosNulo()} \r\n\nPresidente eleito - {presidenteEleito}");
         }
     }
 }

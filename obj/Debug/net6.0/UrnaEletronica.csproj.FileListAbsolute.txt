@@ -1,0 +1,15 @@
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.csproj.AssemblyReference.cache
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.GeneratedMSBuildEditorConfig.editorconfig
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.AssemblyInfoInputs.cache
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.AssemblyInfo.cs
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.csproj.CoreCompileInputs.cache
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/UrnaEletronica
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/UrnaEletronica.deps.json
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/UrnaEletronica.runtimeconfig.json
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/UrnaEletronica.dll
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/ref/UrnaEletronica.dll
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/bin/Debug/net6.0/UrnaEletronica.pdb
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.dll
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/ref/UrnaEletronica.dll
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.pdb
+/home/thales/www/thales/estudosC#/AplicacaoUrnaEletronica/UrnaEletronica/obj/Debug/net6.0/UrnaEletronica.genruntimeconfig.cache
